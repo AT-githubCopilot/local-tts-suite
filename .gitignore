@@ -1,0 +1,27 @@
+# 训练产物与模型权重（绝不入库）
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+GPT_weights*/
+SoVITS_weights*/
+logs*/
+data/*/wavs/
+data/*/*.wav
+
+# 环境体检报告（含本机路径）
+env_report.json
+verify_report.json
+prepare_report.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
